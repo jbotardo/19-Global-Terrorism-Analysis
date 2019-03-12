@@ -4,6 +4,6 @@ from . import views
 
 app_name = 'front_end'
 urlpatterns = [
-    path('', views.index, name='home'),
-    path('more/', views.additional, name='More Views')
+    path(r'^$', 'views.index', name='home'),
+    path(r'^more/', 'views.additional', name='More Views')
 ]
