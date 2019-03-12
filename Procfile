@@ -1,1 +1,1 @@
-web: gunicorn GTA.GTA.wsgi:application --log-file -
+web:  gunicorn --log-file - --preload GTA.GTA.wsgi:application 
