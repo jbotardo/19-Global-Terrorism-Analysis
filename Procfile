@@ -1,1 +1,1 @@
-web: gunicorn GTA.wsgi --log-file -
+web: gunicorn GTA.GTA.wsgi:application --log-file -
