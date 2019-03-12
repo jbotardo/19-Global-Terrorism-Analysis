@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4ef6f9946028f5b124cbbaf77e2c51f92159c741b010047c536aabb53e3f7529"
+            "sha256": "547db96b4ec5e8199e4e6cad9b95d34d085a11b0d1f7024b5b8cb5ad62854816"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,6 +24,14 @@
             "index": "pypi",
             "version": "==2.1.7"
         },
+        "gunicorn": {
+            "hashes": [
+                "sha256:aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471",
+                "sha256:fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3"
+            ],
+            "index": "pypi",
+            "version": "==19.9.0"
+        },
         "mysqlclient": {
             "hashes": [
                 "sha256:425e733b05e359a714d6007c0fc44582be66b63e5a3df0a50949274ae16f4bc6",
@@ -39,22 +47,30 @@
                 "sha256:d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"
             ],
             "version": "==2018.9"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:118ab3e5f815d380171b100b05b76de2a07612f422368a201a9ffdeefb2251c1",
+                "sha256:42133ddd5229eeb6a0c9899496bdbe56c292394bf8666da77deeb27454c0456a"
+            ],
+            "index": "pypi",
+            "version": "==4.1.2"
         }
     },
     "develop": {
         "astroid": {
             "hashes": [
-                "sha256:39183aecc01d6f74eb54edc6739992e842f3bf3068bdfaaba30b5a1742f44091",
-                "sha256:62bd1d8d2ace3e812b3a22eb3c4b7856536d8cc0cdb37466f6a53cf881dbad1f"
+                "sha256:6560e1e1749f68c64a4b5dee4e091fce798d2f0d84ebe638cf0e0585a343acf4",
+                "sha256:b65db1bbaac9f9f4d190199bb8680af6f6f84fd3769a5ea883df8a91fe68b4c4"
             ],
-            "version": "==2.2.4"
+            "version": "==2.2.5"
         },
         "isort": {
             "hashes": [
-                "sha256:89041186651a9a6159683098f337eed0994d9d94e006f891c6e8cbeb8e65f1c7",
-                "sha256:ba51a651505242b0b37ad94b281e1154301e221a40c623e62334ed863fc1c98c"
+                "sha256:18c796c2cd35eb1a1d3f012a214a542790a1aed95e29768bdcb9f2197eccbd0b",
+                "sha256:96151fca2c6e736503981896495d344781b60d18bfda78dc11b290c6125ebdb6"
             ],
-            "version": "==4.3.12"
+            "version": "==4.3.15"
         },
         "lazy-object-proxy": {
             "hashes": [

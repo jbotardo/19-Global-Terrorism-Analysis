@@ -458,7 +458,10 @@
     <script type="text/javascript" src="{% static 'front_end/js/creative.min.js' %}"></script>
 
     <script type="text/javascript" src="{% static 'front_end/js/tab.js' %}"></script>
-    <script type="text/javascript" src="{% static 'front_end/js/settings.js' %}"></script>
+    
+    <script type="text/javascript">
+       var API_KEY = "{{ API_KEY }}"       
+    </script>
     <script type="text/javascript" src="{% static 'front_end/js/heatmap.js' %}"></script>
     <script type="text/javascript" src="{% static 'front_end/js/dash.js' %}"></script>
     <script type="text/javascript" src="{% static 'front_end/js/d3pie.min.js' %}"></script>
